@@ -1,7 +1,26 @@
 {
-  "versionCode": 0,
-  "version": "0.0.0",
-  "changelog": "Bootstrap — no updates available yet.",
+  "versionCode": 12,
+  "version": "1.0.11",
+  "changelog": "fix: move OTA Python script out of YAML heredoc to avoid << parse error",
   "forceRollback": false,
-  "apks": {}
+  "apks": {
+    "arm64-v8a": {
+      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.11-815806c/luckylatlang_arm64-v8a_20260701_0758-signed.apk",
+      "sha256": "e85871ac271044a1590706e9319d56b2df74bae43d89c1269fd4582cffa2f878"
+    },
+    "armeabi-v7a": {
+      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.11-815806c/luckylatlang_armeabi-v7a_20260701_0758-signed.apk",
+      "sha256": "3f5dc1ad0bd49667d844b5f99edd7dd92fd2f4fcd997e7ad01b50d140d2f11cc"
+    },
+    "x86_64": {
+      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.11-815806c/luckylatlang_x86_64_20260701_0758-signed.apk",
+      "sha256": "b7b2aaa2d868ac2ee89e6e885dff9c240fc1994fa7f46598dd4b4f90a270d5b5"
+    }
+  },
+  "rollback": {
+    "versionCode": 0,
+    "version": "0.0.0",
+    "changelog": "Bootstrap \u2014 no updates available yet.",
+    "apks": {}
+  }
 }
