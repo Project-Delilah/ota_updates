@@ -1,38 +1,38 @@
 {
-  "versionCode": 17,
-  "version": "1.0.16",
-  "changelog": "feat: add Updates screen + drawer entry; fix OTA silent failures in release",
+  "versionCode": 18,
+  "version": "1.0.17",
+  "changelog": "chore: bump version to 1.0.17+18",
   "forceRollback": false,
   "apks": {
     "arm64-v8a": {
-      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-ac7ac91/luckylatlang_arm64-v8a_20260718_0452-signed.apk",
-      "sha256": "f6109780f7b59fae8d087612bdf73393663b25876560c9b35f9e2e0c0bec44ad"
+      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.17-bdb4a59/luckylatlang_arm64-v8a_20260718_0511-signed.apk",
+      "sha256": "11e7b564efbffe59968dbd456c80914241ad668cb4e28b5812a451d1720c35cb"
     },
     "armeabi-v7a": {
-      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-ac7ac91/luckylatlang_armeabi-v7a_20260718_0452-signed.apk",
-      "sha256": "3454e4c591f662528b3a1e42c6481fee65d678dd870679d1e7ae3323fd6e818a"
+      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.17-bdb4a59/luckylatlang_armeabi-v7a_20260718_0511-signed.apk",
+      "sha256": "38c60c82dfcfb082ede3a48133a7d419ffd44c3ae6e829231903b4d975a79657"
     },
     "x86_64": {
-      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-ac7ac91/luckylatlang_x86_64_20260718_0452-signed.apk",
-      "sha256": "a3caad0d2f5509d6f41eacff4b259893c93c10aed730e2a4650e31d1155df31d"
+      "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.17-bdb4a59/luckylatlang_x86_64_20260718_0511-signed.apk",
+      "sha256": "37469a8dd3eb38be2cacc71f73401b67b369fac1c31b4e629108b12268635319"
     }
   },
   "rollback": {
     "versionCode": 17,
     "version": "1.0.16",
-    "changelog": "chore: bump version to 1.0.16+17",
+    "changelog": "feat: add Updates screen + drawer entry; fix OTA silent failures in release",
     "apks": {
       "arm64-v8a": {
-        "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-e0b4b0f/luckylatlang_arm64-v8a_20260701_0920-signed.apk",
-        "sha256": "501f34f4165f85d6a8c0ec5caea54d413baaebcd5d27d8bbf8ff02fa7d14200b"
+        "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-ac7ac91/luckylatlang_arm64-v8a_20260718_0452-signed.apk",
+        "sha256": "f6109780f7b59fae8d087612bdf73393663b25876560c9b35f9e2e0c0bec44ad"
       },
       "armeabi-v7a": {
-        "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-e0b4b0f/luckylatlang_armeabi-v7a_20260701_0920-signed.apk",
-        "sha256": "09842ce13bfd6578005abf210023d275e45f08197ec3154afe8ac413b077cd5d"
+        "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-ac7ac91/luckylatlang_armeabi-v7a_20260718_0452-signed.apk",
+        "sha256": "3454e4c591f662528b3a1e42c6481fee65d678dd870679d1e7ae3323fd6e818a"
       },
       "x86_64": {
-        "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-e0b4b0f/luckylatlang_x86_64_20260701_0920-signed.apk",
-        "sha256": "fe45168bcb1814b083abb1edbed964eed13d428d5473828b9bcceecb96cb3cf7"
+        "url": "https://github.com/Project-Delilah/luckylatlang/releases/download/v1.0.16-ac7ac91/luckylatlang_x86_64_20260718_0452-signed.apk",
+        "sha256": "a3caad0d2f5509d6f41eacff4b259893c93c10aed730e2a4650e31d1155df31d"
       }
     }
   }
